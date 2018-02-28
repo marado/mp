@@ -1,10 +1,22 @@
-#index-background-container #index-header-background {
-	background-color: #f0d453;
-	background-image: linear-gradient(45deg,#f0d4f0,#f0d443);
-	background-repeat: repeat-x;
-	-webkit-clip-path: polygon(0 0,100% 0,60% 100%,0 100%);
-	clip-path: polygon(0 0,100% 0,60% 100%,0 100%);
-	-webkit-clip-path: polygon(0 0,100% 0,calc(100% - 450px) 100%,0 100%);
-	clip-path: polygon(0 0,100% 0,calc(100% - 450px) 100%,0 100%);
-	z-index: -30;
+/* index-background-container override */
+
+#index-background-container{position:relative}
+
+#index-background-container #index-header-background,#index-background-container #index-header-portraits{height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%}
+
+#index-background-container #index-header-background{
+	background-color:#f0d4f0;
+	background-image:linear-gradient(45deg,#f0d453,#f0d4f0);
+	background-repeat:repeat-x;
+	-webkit-clip-path:polygon(0 0,100% 0,60% 100%,0 100%);
+	clip-path:polygon(0 0,100% 0,60% 100%,0 100%);
+	-webkit-clip-path:polygon(0 0,100% 0,calc(100% - 450px) 100%,0 100%);
+	clip-path:polygon(0 0,100% 0,calc(100% - 450px) 100%,0 100%);
+	z-index:-30;
 }
+
+@media (max-width:991px){#index-background-container #index-header-background{-webkit-clip-path:none;clip-path:none}}
+
+#index-background-container #index-header-portraits{background-color:#fff;background-image:url("https://static.copyfighters.eu/img/bg-portraits.jpg");background-position:100% 0;z-index:-31}
+
+#index-background-container .header-nav{visibility:hidden}
