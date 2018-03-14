@@ -4,7 +4,7 @@ Este é o código para um [website](https://marado.github.io/mp/) que pretende s
 
 ## O conteúdo
 
-Esta página é uma carta aberta, criada pela [D3](http://direitosdigitais.pt). Se tiveres alguma sugestão ou alteração a fazer ao site ou ao seu conteúdo, é só criar um issue ou um pull request!
+Esta página é uma carta aberta. Se tiveres alguma sugestão ou alteração a fazer ao site ou ao seu conteúdo, é só criar um issue ou um pull request!
 
 ## Considerações técnicas
 
