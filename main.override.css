@@ -19,6 +19,9 @@
 
 #index-background-container #index-header-portraits {
 	background-color:#fff;
+	background-image:url("https://pbs.twimg.com/profile_images/771039203903868929/X0HH2ps7_400x400.jpg");
+	background-image:linear-gradient(0deg,#fff,#fff);
+	background-position:100% 0;
 	z-index:-31;
 }
 
