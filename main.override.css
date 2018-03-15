@@ -33,3 +33,7 @@ div.area-2, div.area-4 {
 	background-image: linear-gradient(45deg,#f000e8,#cff9ba);
 	background-repeat: repeat-x;
 }
+
+.position-text {
+	text-align: left
+}
