@@ -40,3 +40,8 @@ div.area-2, div.area-4 {
 .position-text {
 	text-align: left
 }
+
+/* remove unecessary top arrow that was clipping the actual text */
+div.area-3, div.area-4, div.area5 {
+	clip-path: polygon(50% 0, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+}
